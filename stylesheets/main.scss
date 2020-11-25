@@ -1,7 +1,22 @@
 $font-stack: Helvetica, sans-serif;
-$primary-color:#333;
+$primary-color: #333;
 
-body{
-    font: 100% $font-stack;
-    color:$primary-color;
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+// Arthmetic Operations
+h1 {
+  font-size: 10px + 20;
+}
+h2 {
+  font-size: 10px-4;
+}
+
+div {
+  opacity: random(4) / 5;
+}
+span {
+  width: 3px * 4 + 20;
 }
