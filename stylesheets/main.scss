@@ -1,6 +1,7 @@
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
-
+$name: "Rather Imran";
+$job: Web Developer; // This syntax is also valid for string type
 body {
   font: 100% $font-stack;
   color: $primary-color;
@@ -20,3 +21,5 @@ div {
 span {
   width: 3px * 4 + 20;
 }
+
+$color: lighten(white, 15%);
